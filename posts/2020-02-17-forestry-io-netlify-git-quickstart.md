@@ -1,6 +1,6 @@
 ---
 title: Forestry.io / Netlify / Git Quickstart
-date: 2020-02-17 08:00:00 +0000
+date: 2020-02-17
 categories: ''
 tags:
   - forestry
