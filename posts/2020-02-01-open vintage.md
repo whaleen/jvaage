@@ -1,6 +1,6 @@
 ---
 title: Open Vintage
-date: 2020-02-01 08:00:00 +0000
+date: 2020-02-01
 tags:
 layout: layouts/post.njk
 ---
