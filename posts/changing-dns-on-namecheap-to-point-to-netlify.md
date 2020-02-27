@@ -5,7 +5,7 @@ date: 2020-02-26T08:00:00Z
 tags:
 - namecheap
 - netlify
-layout: post.njk
+layout: layouts/post.njk
 
 ---
 [https://skilstak.io/changing-dns-on-namecheap-to-point-to-netlify/](https://skilstak.io/changing-dns-on-namecheap-to-point-to-netlify/ "https://skilstak.io/changing-dns-on-namecheap-to-point-to-netlify/")
