@@ -19,3 +19,4 @@ fields:
   label: layout
 pages:
 - posts/changing-dns-on-namecheap-to-point-to-netlify.md
+- posts/github-api-user-repositories-json.md
