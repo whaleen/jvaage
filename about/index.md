@@ -7,4 +7,6 @@ eleventyNavigation:
   order: 3
 ---
 
-I am a person that writes stuff.
+Whale hello there...
+
+Moving some stuff around in my portfolio. Please excuse the mess. My GitHub is @whaleen. That place is a mess too. Thanks for stopping by!
