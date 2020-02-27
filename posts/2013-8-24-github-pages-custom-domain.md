@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Github Pages Custom Domain"
 date:   2013-08-24 07:27:35
 layout: layouts/post.njk

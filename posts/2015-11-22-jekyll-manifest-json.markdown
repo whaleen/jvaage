@@ -1,12 +1,9 @@
 ---
-layout: post
 title: "Jekyll manifest.json"
-modified:
 categories: jekyll
-excerpt:
 tags:
-- jekyll
-- json
+  - jekyll
+  - json
 date: 2015-11-22 12:07:15
 layout: layouts/post.njk
 ---

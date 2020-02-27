@@ -1,6 +1,5 @@
 ---
 title: An example post
-layout: post
 layout: layouts/post.njk
 ---
 

@@ -1,10 +1,9 @@
 ---
-layout: post
 title:  "Jekyll Wants Ruby 1.9.3"
 date:   2013-08-17 08:37:21
 tags:
-- Ruby
-- Jekyll
+  - Ruby
+  - Jekyll
 layout: layouts/post.njk
 ---
 

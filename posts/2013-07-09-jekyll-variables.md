@@ -1,9 +1,8 @@
 ---
-layout: post
 date:   2013-07-09 13:00:21
 tags:
-- jekyll
-- variables
+  - jekyll
+  - variables
 layout: layouts/post.njk
 ---
 

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Bible Text HTML"
-excerpt:
 tags:
-- microformats
-- bibleref
-image:
-  feature:
+  - microformats
+  - bibleref
 date: 2015-03-24T03:16:17-07:00
 layout: layouts/post.njk
 ---

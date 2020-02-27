@@ -1,10 +1,7 @@
 ---
-layout: post
 title: Open Vintage
 date: 2020-02-01 08:00:00 +0000
-categories: ''
-tags: ''
-excerpt: ''
+tags:
 layout: layouts/post.njk
 ---
 MEAN STACK: MongoDB, Express.js, Angular.js, Node.js

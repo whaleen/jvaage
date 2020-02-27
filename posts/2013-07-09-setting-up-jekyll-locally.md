@@ -1,12 +1,10 @@
 ---
-layout: post
 title:  "Setting up Jekyll Locally"
 date:   2013-07-09 13:00:21
-categories: jekyll
 tags:
-- jekyll
-- ruby
-- os x
+  - jekyll
+  - ruby
+  - os x
 layout: layouts/post.njk
 ---
 

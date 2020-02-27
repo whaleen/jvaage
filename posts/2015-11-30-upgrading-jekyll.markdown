@@ -1,11 +1,10 @@
 ---
-layout: post
 title:  "Ugrading Jekyll from v2.5.3 to v3x"
 date:   2015-11-30 18:58:32
 tags:
-- jekyll
-- ruby
-- gem
+  - jekyll
+  - ruby
+  - gem
 description: The watching-paint-dry version of a Jekyll upgrade walkthrough post.
 layout: layouts/post.njk
 ---

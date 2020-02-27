@@ -1,11 +1,9 @@
 ---
-layout: post
 title:  "Hosting Jekyll On GitHub Pages"
 date:   2013-09-03 13:00:21
-categories: jekyll, github pages
 tags:
-- jekyll
-- github pages
+  - jekyll
+  - github pages
 layout: layouts/post.njk
 ---
 

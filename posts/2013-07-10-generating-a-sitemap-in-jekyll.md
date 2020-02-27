@@ -1,10 +1,9 @@
 ---
-layout: post
-categories: jekyll
+title: Jekyll thing
 tags:
-- jekyll
-- ruby
-- plugin
+  - jekyll
+  - ruby
+  - plugin
 layout: layouts/post.njk
 ---
 
