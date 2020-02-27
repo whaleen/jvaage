@@ -1,7 +1,10 @@
 ---
 layout: post
 categories: jekyll
-tags: [jekyll, ruby, plugin]
+tags:
+- jekyll
+- ruby
+- plugin
 layout: layouts/post.njk
 ---
 

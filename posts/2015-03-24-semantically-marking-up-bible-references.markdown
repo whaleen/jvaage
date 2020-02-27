@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Bible Text HTML"
-modified:
-categories: microformats bibleref
 excerpt:
-tags: []
+tags:
+- microformats
+- bibleref
 image:
   feature:
 date: 2015-03-24T03:16:17-07:00

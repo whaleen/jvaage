@@ -2,8 +2,10 @@
 layout: post
 title:  "Jekyll & Multiple Sass Directories"
 date:   2015-11-22 22:58:32
-categories: jekyll
-tags: jekyll sass gulp
+tags:
+- jekyll
+- sass
+- gulp
 layout: layouts/post.njk
 ---
 

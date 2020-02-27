@@ -3,7 +3,12 @@ layout: post
 title: Forestry.io / Netlify / Git Quickstart
 date: 2020-02-17 08:00:00 +0000
 categories: ''
-tags: forestry, netlify, github, gitlab, jamstack
+tags:
+- forestry
+- netlify
+- github
+- gitlab
+- jamstack
 excerpt: ''
 layout: layouts/post.njk
 ---

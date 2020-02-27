@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Rails Mornings"
-tags: rails, ruby
+tags:
+- rails
+- ruby
 date:   2013-08-05 13:00:21
 layout: layouts/post.njk
 ---
