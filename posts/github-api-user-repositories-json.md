@@ -12,6 +12,5 @@ tags:
 layout: layouts/post.njk
 
 ---
-    [build]  
-
+    [build]
       command = 'curl https://api.github.com/users/whaleen/repos -o repos.json; jekyll build'
