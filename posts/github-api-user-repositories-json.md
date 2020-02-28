@@ -12,18 +12,47 @@ tags:
 layout: layouts/post.njk
 
 ---
-A basic `jekyll build` command including a call to the GitHub API. The response is output to a _repos.json_ file
+A call to the GitHub API. The response is output to a _repos.json_ file
 
 ``` shell
-curl https://api.github.com/users/whaleen/repos -o repos.json; jekyll build
+curl https://api.github.com/users/whaleen/repos -o repos.json;
 ```
 
+Test the output received at: [https://api.github.com/users/whaleen/repos](https://api.github.com/users/whaleen/repos)
+
+## Jekyll Use Case
 
 In a Jekyll site I have hosted on netlify, this in my `netlify.toml` file:
 
 ``` toml
-    [build]
-      command = 'curl https://api.github.com/users/whaleen/repos -o repos.json; jekyll build'
+[build]
+  command = 'curl https://api.github.com/users/whaleen/repos -o _data/repos.json; jekyll build'
 ```      
 
-Netlify will run that build command whenever a deploy is triggered.
+Netlify will run that build command whenever a deploy is triggered. Netlify respects your netlify.toml file.
+
+## 11ty Use Case
+
+Same as with Jekyll I will put the repos.json into a _data file.
+
+Add script to package.json:
+
+```javascript
+"scripts": {
+  "build": "eleventy",
+  "watch": "eleventy --watch",
+  "serve": "eleventy --serve",
+  "debug": "DEBUG=* eleventy",
+  "comment": "Script below, gh-repos, gets repos and puts in _data dir for consumption by 11ty or Jekyll",
+  "gh-repos": "curl https://api.github.com/users/whaleen/repos -o _data/repos.json"
+
+}
+```
+
+Run it:
+
+```shell
+npm run gh-repos
+```
+
+[Making a Repo Collection in 11ty](#)
