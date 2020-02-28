@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: repos
+  size: 1
+  alias: repo
+permalink: repo/{{ repo.id }}/index.html
+---
+<h1>{{ repo.name }}</h1>
+<h2>@{{ repo.owner.login }}</h2>
+<p>
+  {{ repo.description }}
+</p>
+Repo: <a class="h1" href="{{ repo.url }}">{{ repo.url }}</a>
+
+<h3>Clone Repo</h3>
+<pre>git clone  {{ repo.clone_url }}</pre>
+
+Stargazers {{ repo.stargazers_count }} |
+Watchers {{ repo.watchers_count }} |
+Language: {{ repo.language }}
