@@ -55,4 +55,4 @@ Run it:
 npm run gh-repos
 ```
 
-[Making a Repo Collection in 11ty](#)
+[Making a Repo Collection in 11ty](/posts/making-a-github-repository-collection-in-11ty/)
