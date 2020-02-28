@@ -9,7 +9,7 @@ eleventyNavigation:
 <ol>
 {% for repo in repos -%}
 <li>
-<a href="/repo/{{ repo.id }}">{{ repo.name }}</a> - {{ repo.stars }}
+<a href="/repo/{{ repo.name }}">{{ repo.name }}</a> - {{ repo.description }}
 </li>
 {% endfor -%}
 </ol>
