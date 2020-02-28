@@ -6,7 +6,10 @@
     "build": "eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
-    "debug": "DEBUG=* eleventy"
+    "debug": "DEBUG=* eleventy",
+    "comment": "Script below, gh-repos, gets repos and puts in _data dir for consumption by 11ty or Jekyll",
+    "gh-repos": "curl https://api.github.com/users/whaleen/repos -o _data/repos.json"
+
   },
   "repository": {
     "type": "git",
