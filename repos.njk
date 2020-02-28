@@ -1,21 +1,132 @@
 ---
 layout: layouts/base.njk
+tags: html
 pagination:
   data: repos
   size: 1
   alias: repo
-permalink: repo/{{ repo.id }}/index.html
+permalink: repo/{{ repo.name }}/index.html
 ---
 <h1>{{ repo.name }}</h1>
+<img class="br-100" src="{{ repo.owner.avatar_url }}" />
 <h2>@{{ repo.owner.login }}</h2>
 <p>
   {{ repo.description }}
 </p>
-Repo: <a class="h1" href="{{ repo.url }}">{{ repo.url }}</a>
+GitHub Repo Link: <a class="h1" href="{{ repo.html_url }}">{{ repo.html_url }}</a>
 
 <h3>Clone Repo</h3>
 <pre>git clone  {{ repo.clone_url }}</pre>
 
+not my invention:  {{ repo.fork }} |
+<p>
+
+
+<a href="{{ repo.homepage }}">{{ repo.homepage }}</a>
+<img url="{{ repo.homepage }}/screenshot.png" />
+</p>
+
+
 Stargazers {{ repo.stargazers_count }} |
 Watchers {{ repo.watchers_count }} |
-Language: {{ repo.language }}
+Language: {{ repo.language }} | Open Issues {{repo.open_issues }} | Forks {{ repo.forks }}
+
+<p>
+  use eleventyComputed to add github details to the frontmatter...
+</p>
+
+<hr />
+  <div class="light-gray">
+  <h1>All this shit is here below on purpose:</h1>
+  {{ repo.id }}
+  {{ repo.node_id }}
+  {{ repo.name }}
+  {{ repo.full_name }}
+  {{ repo.private }}
+  {{ repo.owner }}
+    {{ repo.owner.login }}
+    {{ repo.owner.id }}
+    {{ repo.owner.node_id }}
+    {{ repo.owner.avatar_url }}
+    {{ repo.owner.gravatar_id }}
+    {{ repo.owner.url }}
+    {{ repo.owner.html_url }}
+    {{ repo.owner.followers_url }}
+    {{ repo.owner.following_url }}
+    {{ repo.owner.gists_url }}
+    {{ repo.owner.starred_url }}
+    {{ repo.owner.subscriptions_url }}
+    {{ repo.owner.organizations_url }}
+    {{ repo.owner.repos_url }}
+    {{ repo.owner.events_url }}
+    {{ repo.owner.received_events_url }}
+    {{ repo.owner.type }}
+    {{ repo.owner.site_admin }}
+  {{ repo.html_url }}
+  {{ repo.description }}
+  {{ repo.fork }}
+  {{ repo.url }}
+  {{ repo.forks_url }}
+  {{ repo.keys_url }}
+  {{ repo.collaborators_url }}
+  {{ repo.teams_url }}
+  {{ repo.hooks_url }}
+  {{ repo.issue_events_url }}
+  {{ repo.events_url }}
+  {{ repo.assignees_url }}
+  {{ repo.branches_url }}
+  {{ repo.tags_url }}
+  {{ repo.blobs_url }}
+  {{ repo.git_tags_url }}
+  {{ repo.git_refs_url }}
+  {{ repo.trees_url }}
+  {{ repo.statuses_url }}
+  {{ repo.languages_url }}
+  {{ repo.stargazers_url }}
+  {{ repo.contributors_url }}
+  {{ repo.subscribers_url }}
+  {{ repo.subscription_url }}
+  {{ repo.commits_url }}
+  {{ repo.git_commits_url }}
+  {{ repo.comments_url }}
+  {{ repo.issue_comment_url }}
+  {{ repo.contents_url }}
+  {{ repo.compare_url }}
+  {{ repo.merges_url }}
+  {{ repo.archive_url }}
+  {{ repo.downloads_url }}
+  {{ repo.issues_url }}
+  {{ repo.pulls_url }}
+  {{ repo.milestones_url }}
+  {{ repo.notifications_url }}
+  {{ repo.labels_url }}
+  {{ repo.releases_url }}
+  {{ repo.deployments_url }}
+  {{ repo.created_at }}
+  {{ repo.updated_at }}
+  {{ repo.pushed_at }}
+  {{ repo.git_url }}
+  {{ repo.ssh_url }}
+  {{ repo.clone_url }}
+  {{ repo.svn_url }}
+  {{ repo.homepage }}
+  {{ repo.size }}
+  {{ repo.stargazers_count }}
+  {{ repo.watchers_count }}
+  {{ repo.language }}
+  {{ repo.has_issues }}
+  {{ repo.has_projects }}
+  {{ repo.has_downloads }}
+  {{ repo.has_wiki }}
+  {{ repo.has_pages }}
+  {{ repo.forks_count }}
+  {{ repo.mirror_url }}
+  {{ repo.archived }}
+  {{ repo.disabled }}
+  {{ repo.open_issues_count }}
+  {{ repo.license }}
+  {{ repo.forks  }}
+  {{ repo.open_issues }}
+  {{ repo.watchers }}
+  {{ repo.default_branch }}
+</div>
