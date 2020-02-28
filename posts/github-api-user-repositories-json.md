@@ -2,7 +2,7 @@
 title: 'GitHub API: User Repositories JSON'
 description: 'Testing on netlify to create repos.json file on build of any static
   site. '
-date: 2020-02-27T08:00:00Z
+date: 2020-02-27T08:00:00.000+00:00
 tags:
 - api
 - sssg
