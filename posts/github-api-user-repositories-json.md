@@ -2,7 +2,7 @@
 title: 'GitHub API: User Repositories JSON'
 description: 'Testing on netlify to create repos.json file on build of any static
   site. '
-date: 2020-02-27T08:00:00Z
+date: 2020-02-27T08:00:00.000+00:00
 tags:
 - api
 - sssg
@@ -18,12 +18,11 @@ A basic `jekyll build` command including a call to the GitHub API. The response 
 curl https://api.github.com/users/whaleen/repos -o repos.json; jekyll build
 ```
 
-
 In a Jekyll site I have hosted on netlify, this in my `netlify.toml` file:
 
 ``` toml
     [build]
       command = 'curl https://api.github.com/users/whaleen/repos -o repos.json; jekyll build'
-```      
+```
 
 Netlify will run that build command whenever a deploy is triggered.
