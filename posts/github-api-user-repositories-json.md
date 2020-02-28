@@ -19,7 +19,7 @@ curl https://api.github.com/users/whaleen/repos -o repos.json; jekyll build
 ```
 
 
-In a 11ty site I have hosted on netlify, this in my `netlify.toml` file:
+In a Jekyll site I have hosted on netlify, this in my `netlify.toml` file:
 
 ``` toml
     [build]
