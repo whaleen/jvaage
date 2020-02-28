@@ -20,3 +20,4 @@ fields:
 pages:
 - posts/changing-dns-on-namecheap-to-point-to-netlify.md
 - posts/github-api-user-repositories-json.md
+- posts/making-a-github-repository-collection-in-11ty.md
