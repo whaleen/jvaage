@@ -8,7 +8,7 @@
     "serve": "eleventy --serve",
     "debug": "DEBUG=* eleventy",
     "comment": "Script below, gh-repos, gets repos and puts in _data dir for consumption by 11ty or Jekyll",
-    "gh-repos": "curl https://api.github.com/users/whaleen/repos -o _data/repos.json"
+    "gh-repos": "curl 'https://api.github.com/users/whaleen/repos?page=1&per_page=200' -o _data/repos.json"
 
   },
   "repository": {
